@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.parent {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+.child1 {
+    height: 100%;
+    width: 50%;
+    background-color: hsl(80, 72%, 69%);
+
+}
+.child2 {
+    height: 100%;
+    width: 50%;
+    background-color: pink;
+}
+.sec-two {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.parent2 {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 5px;
+}
+.box-child1 {
+    height: 100%;
+    width: 50%;
+    background-color: hsl(9, 77%, 54%);
+    display: flex;
+    align-items: flex-end;
+}
+.box1 {
+    height: 40%;
+    width: 50%;
+    background-color: hsl(0, 77%, 14%);
+}
+.box-child2 {
+    height: 100%;
+    width: 50%;
+    background-color: hsl(9, 72%, 62%);
+    display: flex;
+    justify-content: flex-end;
+}
+.box2 {
+    height: 40%;
+    width: 50%;
+    background-color: hsl(0, 77%, 14%);
+}
+
+.sec-three {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.parent3 {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.flex-child1 {
+    height: 100%;
+    width: 25%;
+    background-color: hsl(240, 76%, 60%);
+}
+.flex-child2 {
+    height: 100%;
+    width: 25%;
+    background-color: hsl(125, 53%, 58%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex2 {
+    height: 60%;
+    width: 20%;
+    background-color: brown;
+}
+.flex-child3 {
+    height: 100%;
+    width: 25%;
+    background-color: hsl(240, 76%, 60%);
+}
+.sec-four {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.parent4 {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.rec1 {
+    height: 100%;
+    width: 25%;
+    background-color: hsl(0, 0%, 5%);
+}
+.rec2{
+    height: 100%;
+    width: 25%;
+    background-color: hsl(310, 76%, 68%);
+}
+.rec3 {
+    height: 100%;
+    width: 25%;
+    background-color: hsl(71, 76%, 68%);
+}
+.parent5 {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.rec4 {
+    height: 80%;
+    width: 100%;
+    background-color: rgb(3, 36, 25);
+}
+.rec5 {
+    height: 80%;
+    width: 100%;
+    background-color: rgb(241, 5, 5);
+}
